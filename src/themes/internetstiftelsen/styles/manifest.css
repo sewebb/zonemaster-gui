@@ -2,3 +2,9 @@
 @import 'foundation.css';
 @import 'header.css';
 @import 'footer.css';
+@import 'menu.css';
+@import 'button.css';
+@import 'input.css';
+@import 'select.css';
+@import 'domain-test.css';
+@import 'language-switcher.css';

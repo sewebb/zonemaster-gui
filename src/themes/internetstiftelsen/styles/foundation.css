@@ -3,5 +3,5 @@ html {
 }
 
 h1 {
-    font-family: 'HK Grotesk Bold', sans-serif;
+    font-family: var(--font-bold-family);
 }

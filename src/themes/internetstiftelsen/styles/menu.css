@@ -1,0 +1,30 @@
+.zm-menu__list {
+    width: auto;
+    margin-left: auto;
+}
+
+.zm-menu__item {
+    font-family: var(--font-heading-family);
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    &.is-active {
+        color: var(--color-palette-ruby);
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+}

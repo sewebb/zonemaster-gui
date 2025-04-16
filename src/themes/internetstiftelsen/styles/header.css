@@ -3,3 +3,15 @@
     padding-top: var(--rhythm);
     padding-bottom: var(--rhythm);
 }
+
+.zm-header__sitename {
+    display: none;
+
+    @media screen and (min-width: 576px) {
+        display: block;
+        font-family: var(--font-heading-family);
+        font-size: var(--font-m);
+        margin-left: var(--rhythm);
+    }
+
+}

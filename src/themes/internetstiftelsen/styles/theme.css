@@ -8,6 +8,8 @@
     --color-palette-main-30: var(--color-palette-ocean-light);
     --border-radius: 0.25rem;
     --button-color: var(--color-palette-ocean-dark);
+    --button-border-color: var(--color-palette-ocean-dark);
+    --border-color-hover-hover: var(--color-palette-ocean);
 
     /* Add custom variables */
     --font-body-family: 'HK Grotesk', sans-serif;

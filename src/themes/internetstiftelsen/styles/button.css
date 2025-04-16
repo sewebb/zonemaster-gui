@@ -2,7 +2,6 @@ button.zm-button {
     &:hover,
     &:focus {
         background-color: var(--color-palette-ocean);
-        border-color: var(--color-palette-ocean);
 
         &[aria-controls="advanced-options"] {
             i {

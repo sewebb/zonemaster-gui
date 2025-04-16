@@ -1,0 +1,5 @@
+.zm-header {
+    background-color: var(--color-palette-white) !important;
+    padding-top: var(--rhythm);
+    padding-bottom: var(--rhythm);
+}

@@ -1,0 +1,38 @@
+.zm-footer {
+    background-color: var(--color-palette-cyberspace) !important;
+    color: var(--color-palette-white);
+
+    button {
+        color: var(--color-palette-jade);
+
+        &:hover,
+        &:focus {
+            color: var(--color-palette-jade);
+
+            + label {
+                text-decoration: underline;
+            }
+        }
+
+        + label {
+            color: var(--color-palette-jade);
+        }
+    }
+}
+
+.zm-footer-copyright {
+    background-color: var(--color-palette-black) !important;
+    color: var(--color-palette-white);
+    font-size: var(--font-xs);
+}
+
+.zm-footer-nav {
+    a {
+        color: var(--color-palette-jade);
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+}

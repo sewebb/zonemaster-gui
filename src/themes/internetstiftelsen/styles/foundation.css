@@ -1,0 +1,7 @@
+html {
+    background-color: var(--color-palette-ash);
+}
+
+h1 {
+    font-family: 'HK Grotesk Bold', sans-serif;
+}

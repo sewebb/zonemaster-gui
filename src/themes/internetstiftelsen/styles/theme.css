@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@import 'manifest.css';
+
+:root {
+    --font-body-family: 'HK Grotesk', sans-serif;
+    --font-heading-family: 'HK Grotesk Semibold', sans-serif;
+    --color-palette-ash: #ededed;
+    --color-palette-cyberspace: #1f2a36;
+    --color-palette-jade: #55c7b4;
+    --color-palette-jade-light: #aae3d9;
+    --border-radius: 0.25rem;
+}

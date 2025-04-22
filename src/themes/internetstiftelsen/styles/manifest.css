@@ -7,4 +7,7 @@
 @import 'input.css';
 @import 'select.css';
 @import 'domain-test.css';
+@import 'result.css';
+@import 'collapsible.css';
+@import 'utilities.css';
 @import 'language-switcher.css';

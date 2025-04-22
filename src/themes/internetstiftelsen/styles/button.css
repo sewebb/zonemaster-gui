@@ -1,11 +1,14 @@
 button.zm-button {
-    &:hover,
-    &:focus {
-        background-color: var(--color-palette-ocean);
+    &.zm-button--primary {
+        &:hover,
+        &:focus {
+            background-color: var(--color-palette-ocean);
+            border-color: var(--button-border-hover-color);
 
-        &[aria-controls="advanced-options"] {
-            i {
-                color: var(--color-palette-ocean);
+            &[aria-controls="advanced-options"] {
+                i {
+                    color: var(--color-palette-ocean);
+                }
             }
         }
     }
@@ -18,6 +21,21 @@ button.zm-button {
     &[aria-controls="advanced-options"] {
         i {
             color: var(--color-palette-ocean-dark);
+        }
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+
+            + label {
+                text-decoration: underline;
+            }
+
+            &[aria-controls="advanced-options"] {
+                i {
+                    color: var(--color-palette-ocean);
+                }
+            }
         }
     }
 }

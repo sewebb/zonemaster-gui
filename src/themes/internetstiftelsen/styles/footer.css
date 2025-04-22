@@ -26,7 +26,7 @@
         background-color: transparent !important;
         font-size: var(--font-xs);
         color: var(--color-palette-cyberspace);
-        padding: 0;
+        padding: 0 0 var(--spacing-m) 0;
         margin: 0;
         text-align: left;
     }
@@ -141,7 +141,7 @@
     ::selection{background-color:#ff9fb4;}
     *{box-sizing:border-box;}
     .o-footer{z-index:500;font-size:18px;position:relative;transform:translateY(0);}
-    .o-footer__logotype{width:100%;max-width:250px;height:100%;}
+    .o-footer__logotype{width:100%;max-width:250px;height:100%;display:inline-flex;}
     @media (min-width:1200px){
         .o-footer__logotype{max-width:300px;}
     }

@@ -1,7 +1,12 @@
 .zm-header {
     background-color: var(--color-palette-white) !important;
-    padding-top: var(--rhythm);
-    padding-bottom: var(--rhythm);
+    padding-top: calc(var(--rhythm) / 2);
+    padding-bottom:  calc(var(--rhythm) / 2);
+
+    @media screen and (min-width: 768px) {
+        padding-top: var(--rhythm);
+        padding-bottom: var(--rhythm);
+    }
 }
 
 .zm-header__sitename {
@@ -14,4 +19,13 @@
         margin-left: var(--rhythm);
     }
 
+}
+
+.zm-header__navigation-group {
+    &[aria-hidden='false'] {
+
+        @media screen and (min-width: 576px) {
+            top: 78px;
+        }
+    }
 }

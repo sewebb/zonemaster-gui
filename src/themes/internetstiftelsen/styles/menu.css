@@ -1,6 +1,12 @@
 .zm-menu__list {
-    width: auto;
-    margin-left: auto;
+    @media screen and (min-width: 768px) {
+        width: auto;
+        margin-left: auto;
+    }
+
+    li {
+        border-color: var(--color-palette-ocean);
+    }
 }
 
 .zm-menu__item {
@@ -16,7 +22,12 @@
     }
 
     &.is-active {
-        color: var(--color-palette-ruby);
+        text-decoration: underline;
+
+        @media screen and (min-width: 768px) {
+            color: var(--color-palette-ruby);
+            text-decoration: none;
+        }
 
         &:hover,
         &:focus {

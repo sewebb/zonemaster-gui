@@ -1,0 +1,4 @@
+section.zm-result__module {
+    background-color: var(--color-palette-white);
+    border: 1px solid var(--color-palette-concrete);
+}

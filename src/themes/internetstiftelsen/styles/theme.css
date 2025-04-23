@@ -10,9 +10,6 @@
     --button-color: var(--color-palette-ocean-dark);
     --button-border-color: var(--color-palette-ocean-dark);
     --button-border-hover-color: var(--color-palette-ocean);
-    --alert-bg: var(--color-palette-ocean-light);
-    --alert-border: var(--color-palette-ocean);
-    --alert-text-color: var(--color-palette-cyberspace);
 
     /* Add custom variables */
     --font-body-family: 'HK Grotesk', sans-serif;

@@ -13,6 +13,17 @@ button.zm-button {
         }
     }
 
+    &.zm-button--secondary {
+        border-color: var(--color-palette-ocean);
+        background-color: var(--color-palette-ocean-light);
+
+        &:hover,
+        &:focus {
+            background-color: var(--color-palette-ocean);
+            border-color: var(--button-border-hover-color);
+        }
+    }
+
     &.zm-button--transparent {
         background-color: transparent;
         border-color: transparent;

@@ -100,7 +100,6 @@
     a{background-color:#0000;}
     a:active,a:hover{outline:0;}
     a,button{touch-action:manipulation;}
-    h2{font-weight:400;}
     img{border:0;max-width:100%;height:auto;}
     button{color:inherit;font:inherit;-webkit-appearance:none;margin:0;}
     button{overflow:visible;}
@@ -131,9 +130,9 @@
     @media (min-width:1200px){
         .grid-xl-9{flex:0 0 50%;max-width:50%;}
     }
-    h2{margin-top:-.5rem;margin-bottom:.5rem;padding-top:.322223rem;padding-bottom:.177777rem;font-family:HK Grotesk Semibold,sans-serif;font-size:1.22222rem;line-height:1.5rem;}
+    .o-footer__logotypes h2{margin-top:-.5rem;margin-bottom:.5rem;padding-top:.322223rem;padding-bottom:.177777rem;font-family:HK Grotesk Semibold,sans-serif;font-size:1.22222rem;line-height:1.5rem;}
     @media (min-width:576px){
-        h2{margin-top:-.5rem;margin-bottom:.5rem;padding-top:.283333rem;padding-bottom:.216667rem;font-size:1.33333rem;line-height:1.75rem;}
+        .o-footer__logotypes h2{margin-top:-.5rem;margin-bottom:.5rem;padding-top:.283333rem;padding-bottom:.216667rem;font-size:1.33333rem;line-height:1.75rem;}
     }
     li{padding-top:.125rem;padding-bottom:.125rem;}
     p,ul{margin-top:-.5rem;margin-bottom:1.5rem;padding-top:.4rem;padding-bottom:.1rem;font-size:1rem;line-height:1.5rem;}

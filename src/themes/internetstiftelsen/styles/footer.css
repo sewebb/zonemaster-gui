@@ -22,7 +22,7 @@
         }
     }
 
-    p.zm-footer-copyright {
+    span.zm-footer-copyright {
         background-color: transparent !important;
         font-size: var(--font-xs);
         color: var(--color-palette-cyberspace);

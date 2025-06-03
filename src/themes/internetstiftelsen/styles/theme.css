@@ -11,6 +11,11 @@
     --button-border-color: var(--color-palette-ocean-dark);
     --button-border-hover-color: var(--color-palette-ocean);
 
+    --button-secondary-color: var(--color-palette-ocean-light);
+    --button-secondary-color-hover: var(--color-palette-ocean);
+    --button-secondary-border-color: var(--color-palette-ocean);
+    --button-secondary-border-hover-color: var(--button-border-hover-color);
+
     /* Add custom variables */
     --font-body-family: 'HK Grotesk', sans-serif;
     --font-heading-family: 'HK Grotesk Semibold', sans-serif;

@@ -11,6 +11,7 @@
 
 .zm-menu__item {
     font-family: var(--font-heading-family);
+    font-size: var(--font-s);
 
     &:hover,
     &:focus {

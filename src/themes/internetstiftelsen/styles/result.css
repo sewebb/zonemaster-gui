@@ -8,5 +8,6 @@ section.zm-result__module {
         margin-top: 0;
         padding-top: 0;
         padding-bottom: 0;
+        font-size: calc(var(--font-xs) * 1.25);
     }
 }

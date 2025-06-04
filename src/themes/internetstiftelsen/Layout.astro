@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Skip from '../default/Skip.astro';
 import Header from './Header.astro';
+import Banner from '../default/Banner.astro';
 import Content from '../default/Content.astro';
 import Alerts from '@/lib/components/Alert/Alerts.svelte';
 import Footer from './Footer.astro';
@@ -10,6 +11,7 @@ import Footer from './Footer.astro';
 <BaseLayout>
     <Skip />
     <Header />
+    <Banner />
     <Content>
         <slot />
     </Content>

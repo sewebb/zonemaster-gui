@@ -12,7 +12,10 @@ const config: Config = {
     },
     siteInfo: {
         email: 'contact@zonemaster.net',
-        siteName: 'Zonemaster',
+        siteName: '',
+    },
+    setTitle(title: string) {
+        return `${title} – Zonemaster`;
     }
 };
 
